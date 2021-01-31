@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
+* {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -16,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F5F6F8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -24,7 +24,7 @@ class Sidebar extends React.Component {
           {SidebarData.map((item, index) => {
             return (
               <li key={index}
-                className={index === this.state.buttonSelected ? 'nav-text-selected' : item.cName}
+                className={index === this.state.buttonSelected ? 'selected' : item.cName}
                 onClick={this.handleClick(index)}
               >
                 <Link to={item.path}>
